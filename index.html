@@ -1,33 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Health Gaurd</title>
+  <head>
+    <title>Health Guard</title>
     <!-- Meta Tags -->
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- Og Tags -->
-      <meta property="og:url" content="https://rohithwhitehatjr.github.io/My-Portfolio-Website/" />
-      <meta property="og:type" content="Personal Portfolio" />
-      <meta property="og:title" content="My Portfolio Website" />
-      <meta property="og:description" content="The My Portfolio Website is a Amazing🚀 Website About Me Rohith M!!" />
-      <meta property="og:image" content="/Images/Profile_Pic.png" />
-      <!-- Twitter Tags -->
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@RohithM0009" />
-      <meta name="twitter:title" content="My Portfolio Website" />
-      <meta name="twitter:description" content="The My Portfolio Website is a Amazing🚀 Website About Me Rohith M!!" />
-      <meta name="twitter:image" content="/Images/Profile_Pic.png" />
-      <!-- Link Tags -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-      <link rel="stylesheet" href="https://unpkg.com/open-props" />
-      <link rel="stylesheet" href="style.css" />
-      <!-- Script Tags -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" defer></script>
-      <script src="https://kit.fontawesome.com/6fb54d94e0.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <h1></h1>
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Og Tags -->
+    <meta property="og:url" content="https://healthguard.netlify.app" />
+    <meta property="og:type" content="Informational Website" />
+    <meta property="og:title" content="Health guard" />
+    <meta property="og:description" content="Provides Health Information" />
+    <meta property="og:image" content="/Images/Logo.png" />
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@RohithM0009" />
+    <meta name="twitter:title" content="Health Guard" />
+    <meta name="twitter:description" content="Provides Health Information" />
+    <meta name="twitter:image" content="/Images/Logo.png" />
+    <!-- Link Tags -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/open-props" />
+    <link rel="icon" href="/Assets/Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Script Tags -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" defer></script>
+    <script src="https://kit.fontawesome.com/6fb54d94e0.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="container">
+    <center>
+      <h1>Health guard</h1>
+      <h3>Health guard is a live builtin of health diseases and viruses</h3>
+    </center>
+    <div id="ongoing_viruses">
+      <h4 class="animate__animated animate__flash animate__infinite animate__slow"><li>Ongoing Viruses</li></h4>
+      <div class="card-grid">
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://cdn.who.int/media/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-479v.jpg?sfvrsn=4dba955c_12%20479w" />
+          </div>
+          <div class="card-body">
+            <h5>Covid-19</h5>
+            <br />
+            COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2 and was discovered in December 2019 in Wuhan, China. It is very contagious and has quickly spread around
+            the world.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('covid')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Monkeypox</h5>
+            <br />
+            Monkeypox is a viral zoonosis (a virus transmitted to humans from animals) with symptoms similar to those seen in the past in smallpox patients, although it is clinically less severe.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div id="common_diseases">
+      <h4 class="animate__animated animate__flash animate__infinite animate__slow"><li>Common Diseases</li></h4>
+
+      <!-- Row 1 -->
+      <div class="card-grid">
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Allergies</h5>
+            <br />
+            Allergies are an immune response triggered by allergens, an ordinarily harmful substance.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Headaches</h5>
+            <br />
+            There are countless causes of headaches, which differ for each person, so you’ll have to do some experimenting to figure out the cause of your pain.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Mononucleosis</h5>
+            <br />
+            Mononucleosis is an illness caused by the Epstein-Barr virus (EBV), which is spread through saliva.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="card-grid">
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Diarrhea</h5>
+            <br />
+            Loose, watery stools that occur more frequently than usual.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Cold and Flu</h5>
+            <br />
+            Colds and influenza (flu) are the most common illnesses among college students.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Conjunctivitis</h5>
+            <br />
+            Pink eye (conjunctivitis) is an inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="common_viruses">
+      <h4 class="animate__animated animate__flash animate__infinite animate__slow"><li>Common Viruses</li></h4>
+
+      <!-- Row 1 -->
+      <div class="card-grid">
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Allergies</h5>
+            <br />
+            Allergies are an immune response triggered by allergens, an ordinarily harmful substance.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Headaches</h5>
+            <br />
+            There are countless causes of headaches, which differ for each person, so you’ll have to do some experimenting to figure out the cause of your pain.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+        <div class="card card-shadow">
+          <div class="card-header card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFo8keLY1A-qLpvw9W2PzHtwr6707QaK_Rw&usqp=CAU" />
+          </div>
+          <div class="card-body">
+            <h5>Mononucleosis</h5>
+            <br />
+            Mononucleosis is an illness caused by the Epstein-Barr virus (EBV), which is spread through saliva.
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-" onclick="page_redirect('monkeypox')">View</button>
+            <button class="btn btn-outline" onclick="chat()">Chat With Experts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
