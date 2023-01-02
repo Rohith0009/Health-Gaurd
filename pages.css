@@ -9,3 +9,21 @@ h1 {
 h5 {
   font-weight: 400;
 }
+
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
